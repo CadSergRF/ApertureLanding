@@ -1,4 +1,13 @@
 /*#region  --Общие стили--  */
+@-webkit-keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
 @keyframes rotation {
   from {
     transform: rotate(0deg);
@@ -37,6 +46,8 @@
   font-size: 1rem;
   line-height: 1.3em;
   color: black;
+  width: -webkit-max-content;
+  width: -moz-max-content;
   width: max-content;
   height: 2.8em;
   padding: .7em;
@@ -56,7 +67,8 @@
 }
 
 .btn:hover:before {
-  animation: rotation 2s infinite linear;
+  -webkit-animation: rotation 2s infinite linear;
+          animation: rotation 2s infinite linear;
 }
 
 .btn__link-zone {
@@ -100,7 +112,8 @@
 }
 
 .logo__img {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .heading_menu {
@@ -152,8 +165,10 @@
 }
 
 .bg__img {
-  object-fit: cover;
-  object-position: center top;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center top;
+     object-position: center top;
 }
 
 .heading__info-block {
@@ -192,6 +207,8 @@
   color: var(--accent-text-color);
   font-size: 1rem;
   line-height: 1.33em;
+  width: -webkit-max-content;
+  width: -moz-max-content;
   width: max-content;
   height: 1rem;
   box-sizing: border-box;
@@ -272,8 +289,10 @@
 }
 
 .service__img {
-  object-fit: cover;
-  object-position: left center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: left center;
+     object-position: left center;
 }
 
 .service__info {
@@ -371,8 +390,10 @@
 }
 
 .column__img {
-  object-fit: cover;
-  object-position: center top;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center top;
+     object-position: center top;
 }
 
 /*#endregion  --Two-columns--  */
@@ -447,6 +468,8 @@
 }
 
 .nav-zone {
+  width: -webkit-max-content;
+  width: -moz-max-content;
   width: max-content;
   margin-right: 4vw;
 }
@@ -522,6 +545,8 @@
   opacity: 0.8;
 }
 .footer_social {
+  width: -webkit-max-content;
+  width: -moz-max-content;
   width: max-content;
   min-width: 100px;
   display: flex;
@@ -529,7 +554,8 @@
 }
 .social__icon {
   width: 24px;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
 
 }
 /*#endregion  --Footer--  */
