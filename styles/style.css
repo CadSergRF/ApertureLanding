@@ -165,6 +165,8 @@
 }
 
 .bg__img {
+  width: 100%;
+  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center top;
@@ -289,6 +291,8 @@
 }
 
 .service__img {
+  width: 100%;
+  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: left center;
@@ -390,6 +394,8 @@
 }
 
 .column__img {
+  width: 100%;
+  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center top;
