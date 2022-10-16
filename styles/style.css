@@ -122,7 +122,7 @@
      object-fit: contain;
 }
 
-.header_menu {
+.header__menu {
   list-style-type: none;
   display: flex;
   justify-content: flex-end;
